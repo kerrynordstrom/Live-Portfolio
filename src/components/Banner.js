@@ -6,8 +6,7 @@ const Banner = () => (
     <div className="banner-text">
       <h1 className="responsive-headline">Hey, I'm Kerry Nordstrom.</h1>
       <h3>
-        I'm an Austin-based <span>full stack application developer </span>and <span>photographer</span> creating awesome
-        and effective applications and visuals for companies all around the world. Let's
+        I'm an Austin-based <span>full stack application developer </span>and <span>photographer</span> who can make you the website and brand identity you've been seeking. Let's
         <a className="smoothscroll" href="#about">
           {" "}
           start scrolling
