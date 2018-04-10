@@ -12,7 +12,7 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About Me</h2>
         <p>
-          I'm a full stack JavaScript developer.
+          I'm a Full-Stack JavaScript developer with a primary focus on creating agile, innovative applications that solve client-defined problems. Proficient in React Native, Node.js, MongoDB, Express, and a variety of JavaScript libraries.
         </p>
         <div className="row">
           <div className="columns contact-details">

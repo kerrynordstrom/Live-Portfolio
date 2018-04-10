@@ -2,14 +2,8 @@ import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
 import FirePolls from "../assets/images/portfolio/firepolls.jpg";
-import Coffee from "../assets/images/portfolio/coffee.jpg";
-import Console from "../assets/images/portfolio/console.jpg";
-import Judah from "../assets/images/portfolio/judah.jpg";
-import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
-import Farmerboy from "../assets/images/portfolio/farmerboy.jpg";
-import Girl from "../assets/images/portfolio/girl.jpg";
-import Origami from "../assets/images/portfolio/origami.jpg";
-import Retrocam from "../assets/images/portfolio/retrocam.jpg";
+import Roastful from "../assets/images/portfolio/roastful.jpg";
+import Noncents from "../assets/images/portfolio/noncents.jpg";
 
 const Portfolio = () => (
   <section id="portfolio">
@@ -40,12 +34,12 @@ const Portfolio = () => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="http://www.firepolls.com" title="">
-                <img alt="" src={FirePolls} />
+              <a href="http://roastfulapi.club" title="">
+                <img alt="" src={Roastful} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Fire Polls</h5>
-                    <p>React Polling App</p>
+                    <h5>Roastful</h5>
+                    <p>Recipe Finder App</p>
                   </div>
                 </div>
                 <div className="link-icon">
@@ -58,11 +52,11 @@ const Portfolio = () => (
           <div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="http://www.github.com/HashMoney/Noncents" title="">
-                <img alt="" src={FirePolls} />
+                <img alt="" src={Noncents} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Fire Polls</h5>
-                    <p>React Polling App</p>
+                    <h5>Noncents</h5>
+                    <p>Blockchain Mining Backend</p>
                   </div>
                 </div>
                 <div className="link-icon">

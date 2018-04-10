@@ -20,12 +20,9 @@ const Education = () => (
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+            ● Learned to build and contribute to a server-side and client-side applications, using architectures/frameworks that promote maintainability, scalability, and collaboration.
+            <br />
+            ● Applied Computer Science fundamentals in analyzing the trade-offs between competing solutions when choosing algorithms.
           </p>
         </div>
       </div>
@@ -40,13 +37,7 @@ const Education = () => (
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            ● Studied a variety of topics related to communications, interactive media studies, media history, all culminating in a senior thesis positing that people are happier and better off with affordable access to information.
           </p>
         </div>
       </div>

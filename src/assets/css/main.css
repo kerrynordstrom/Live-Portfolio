@@ -1311,6 +1311,11 @@ ul#nav li.current a {
   color: #95a3a3;
 }
 
+#portfolio-wrapper {
+  display: grid;
+  justify-items: center;
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
@@ -1537,7 +1542,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background: #1f1f1f url(../images/horse-header.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
