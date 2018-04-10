@@ -9,13 +9,34 @@ const Education = () => (
     </div>
 
     <div className="nine columns main-col">
+
       <div className="row item">
         <div className="twelve columns">
-          <h3>University of Life</h3>
+          <h3>Code Fellows</h3>
           <p className="info">
-            Master in Graphic Design
+            Certificate in Full Stack JavaScript
             <span>&bull;</span>
-            <em className="date">April 2007</em>
+            <em className="date">February 2018</em>
+          </p>
+
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+            ornare odio. Sed non mauris vitae erat
+          </p>
+        </div>
+      </div>
+      
+      <div className="row item">
+        <div className="twelve columns">
+          <h3>Miami University</h3>
+          <p className="info">
+            Bachelor of Philosophy in Interdisciplinary Studies
+            <span>&bull;</span>
+            <em className="date">June 2007</em>
           </p>
 
           <p>
@@ -26,26 +47,6 @@ const Education = () => (
             Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
             aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
             mollis pretium.
-          </p>
-        </div>
-      </div>
-
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>School of Cool Designers</h3>
-          <p className="info">
-            B.A. Degree in Graphic Design
-            <span>&bull;</span>
-            <em className="date">March 2003</em>
-          </p>
-
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
           </p>
         </div>
       </div>

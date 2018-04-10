@@ -11,41 +11,36 @@ const Work = () => (
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
+          <h3>C.C. Filson Co.</h3>
           <p className="info">
-            Senior UX Designer
+            Product Data Specialist
             <span>&bull;</span>
-            <em className="date">March 2010 - Present</em>
+            <em className="date"> October 2014 - September 2017</em>
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+          ● Developed best practices for data management within SQL-based ERP system across hundreds of tables
+          <br />
+          ● Maintained SOP documentation for engineering, production, planning, purchasing as related to use of ERP
+          <br />
+          ● Produced reports for management to track production efficiency and identify inventory oversights which improved accountability across multiple departments
           </p>
         </div>
       </div>
 
       <div className="row item">
         <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
+          <h3>Wheat Ridge Cyclery</h3>
           <p className="info">
-            UX Designer
+            Bicycle Technician
             <span>&bull;</span>
-            <em className="date">March 2007 - February 2010</em>
+            <em className="date">March 2011 - February 2014</em>
           </p>
 
           <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
+          ● Introduced 24-hour turnaround policy for many repairs which was a direct contributor to beating profit goals for three consecutive years (~10% over each year prior)
+          <br />
+          ● Foreman of 15,000 sq ft store remodel which included managing project timeline across five vendors with accountability to the board, finishing weeks ahead of schedule.
           </p>
         </div>
       </div>

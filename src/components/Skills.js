@@ -21,28 +21,24 @@ const Skills = () => (
       <div className="bars">
         <ul className="skills">
           <li>
-            <span className="bar-expand photoshop" />
-            <em>Photoshop</em>
+            <span className="bar-expand html5css" />
+            <em>HTML5/CSS</em>
           </li>
           <li>
-            <span className="bar-expand illustrator" />
-            <em>Illustrator</em>
-          </li>
-          <li>
-            <span className="bar-expand wordpress" />
-            <em>Wordpress</em>
-          </li>
-          <li>
-            <span className="bar-expand css" />
-            <em>CSS</em>
-          </li>
-          <li>
-            <span className="bar-expand html5" />
-            <em>HTML5</em>
+            <span className="bar-expand javascript" />
+            <em>JavaScript</em>
           </li>
           <li>
             <span className="bar-expand nodejs" />
             <em>Nodejs</em>
+          </li>
+          <li>
+            <span className="bar-expand reactredux" />
+            <em>React/Redux</em>
+          </li>
+          <li>
+            <span className="bar-expand mongodb" />
+            <em>MongoDB</em>
           </li>
         </ul>
       </div>

@@ -9,16 +9,10 @@ const Footer = () => (
         <SocialLinks />
 
         <ul className="copyright">
-          <li>&copy; Copyright 2018 CeeVee</li>
+          <li>&copy; Copyright 2018 Kerry Nordstrom</li>
           <li>
-            Design by{" "}
-            <a title="Styleshout" href="http://www.styleshout.com/">
-              Styleshout
-            </a>
-          </li>
-          <li>
-            Developed in React ⚛️ by{" "}
-            <a href="http://www.amanhimself.me">Aman Mittal</a>
+            Developed in Gatsby.js by{" "}
+            <a href="mailto: kerry.a.nordstrom@gmail.com">Kerry Nordstrom</a>
           </li>
         </ul>
       </div>

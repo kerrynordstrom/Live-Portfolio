@@ -840,7 +840,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/horse-header.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -856,9 +856,10 @@ header:before {
 }
 header .banner {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   margin: 0 auto;
   width: 85%;
+  padding-top: 50px;
   padding-bottom: 30px;
   text-align: center;
 }
@@ -875,7 +876,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #a8a8a8;
+  color: #ffffff;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -894,7 +895,7 @@ header .banner-text hr {
 /* header social links */
 header .social {
   margin: 24px 0;
-  padding: 0;
+  padding-top: 20px;
   font-size: 30px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
@@ -1168,70 +1169,37 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  width: 60%;
-  -moz-animation: photoshop 2s ease;
-  -webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  width: 55%;
-  -moz-animation: illustrator 2s ease;
-  -webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  width: 50%;
-  -moz-animation: wordpress 2s ease;
-  -webkit-animation: wordpress 2s ease;
-}
-.css {
-  width: 90%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
-}
-.html5 {
+.html5css {
   width: 80%;
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
-.jquery {
-  width: 50%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+
+.javascript {
+  width: 80%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
+.reactredux {
+  width: 60%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
 }
-@-moz-keyframes illustrator {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 55%;
-  }
+
+.nodejs {
+  width: 60%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
 }
-@-moz-keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
+
+.mongodb {
+  width: 70%;
+  -moz-animation: photoshop 2s ease;
+  -webkit-animation: photoshop 2s ease;
 }
-@-moz-keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@-moz-keyframes html5 {
+
+@-moz-keyframes html5css {
   0% {
     width: 0px;
   }
@@ -1239,48 +1207,8 @@ ul#nav li.current a {
     width: 80%;
   }
 }
-@-moz-keyframes jquery {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
 
-@-webkit-keyframes photoshop {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-@-webkit-keyframes illustrator {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@-webkit-keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
-@-webkit-keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@-webkit-keyframes html5 {
+@-moz-keyframes javascript {
   0% {
     width: 0px;
   }
@@ -1288,14 +1216,82 @@ ul#nav li.current a {
     width: 80%;
   }
 }
-@-webkit-keyframes jquery {
+
+@-moz-keyframes nodejs {
   0% {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 60%;
   }
 }
+
+
+@-moz-keyframes reactredux {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-moz-keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+
+@-webkit-keyframes html5css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes javascript {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes nodejs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+
+@-webkit-keyframes reactredux {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -2319,7 +2315,7 @@ footer .social li:first-child {
 
  /* header styles
  -------------------------------------------------------------------- */
- header .banner { padding-top: 24px; }
+ header .banner { padding-top: 46px; }
  header .banner-text h1 {
     font: 40px/1.1em 'opensans-bold', sans-serif;
     margin: 0 auto 24px auto;
@@ -2330,7 +2326,10 @@ footer .social li:first-child {
  }
 
  /* header social links */
- header .social { font-size: 20px;}
+ header .social { 
+   font-size: 20px;
+   padding: 0;
+  }
  header .social li { margin: 0 6px; }
 
  /* footer
