@@ -20,7 +20,7 @@ const About = () => (
             <p className="address">
               <span>Kerry Nordstrom</span>
               <span>
-                <br /> Austin, TX 78702 US
+                <br /> Austin, TX USA
               </span>
               <br />
               <span>kerry.a.nordstrom@gmail.com</span>
