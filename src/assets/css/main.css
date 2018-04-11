@@ -840,7 +840,9 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/horse-header.jpg) no-repeat top center;
+  background: url(../images/horse-header.jpg) no-repeat top center;
+  background-color: rgba(28, 181, 241, 0.938);
+  background-blend-mode: multiply;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -997,6 +999,10 @@ ul#nav li a {
   -o-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
+}
+
+ul#nav li a:hover {
+   color: black;
 }
 
 ul#nav li a:active {
